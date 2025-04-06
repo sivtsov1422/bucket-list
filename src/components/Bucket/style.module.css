@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bucketContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.titles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.titles h4 {
+    border: 1px solid #578551;
+    padding: 15px;
+}
+
+.bucketItem {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.bucketItem p {
+    border: 1px solid #578551;
+    padding: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-top: 30px;
+}

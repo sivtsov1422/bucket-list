@@ -1,0 +1,26 @@
+
+
+.titles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.titles h4 {
+    border: 1px solid #867027;
+    padding: 15px;
+}
+
+.productItem {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.productItem p {
+    border: 1px solid #867027;
+    padding: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
